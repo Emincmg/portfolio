@@ -1,0 +1,252 @@
+{
+  "headerData": {
+    "logoDark": "/images/logo.svg",
+    "logoLight": "/images/logo-light.svg"
+  },
+  "heroData": {
+    "title": "My name<br />is <b>Emin</b> <span><br />Comoglu</span>",
+    "subTitle": "<span>Back-end Developer</span> based in <span>Türkiye</span>",
+    "ImgLink": "/images/emin-banner.png",
+    "phone": "+90 553 720 9699",
+    "email": "emin-comoglu@hotmail.com",
+    "btnText": "Contact me",
+    "socialData": [
+      {
+        "link": "https://github.com/Emincmg",
+        "icon": "github"
+      },
+      {
+        "link": "",
+        "icon": "instagram"
+      },
+      {
+        "link": "https://www.linkedin.com/in/emin-çomoğlu-657213237",
+        "icon": "linkedin"
+      }
+    ]
+  },
+  "aboutData": {
+    "aboutLeft": {
+      "ImgLink": "/images/emin-pp.jpg",
+      "name": "Emin Çomoğlu",
+      "designation": "Back-end Developer <span>based in</span> Türkiye",
+      "resumeCv": "/Ali_Emin_Comoglu_CV.pdf"
+    },
+    "aboutRight": {
+      "aboutText": "Born in Türkiye,  a passionate Backend Developer dedicated to building robust and scalable server-side applications. With a solid grasp of modern technologies and a knack for problem-solving, I specialize in crafting efficient solutions that power the core functionalities behind dynamic websites and applications. My journey in the tech world is driven by a relentless pursuit of learning and a commitment to turning complex challenges into seamless user experiences.",
+      "contactInfo": [
+        {
+          "icon": "phone",
+          "data": "+90 553 720 9699"
+        },
+        {
+          "icon": "person",
+          "data": "Emin Çomoğlu"
+        },
+        {
+          "icon": "envelope",
+          "data": "emin-comoglu@hotmail.com"
+        },
+        {
+          "icon": "map",
+          "data": "Istanbul, TR"
+        }
+      ],
+      "archivement": [
+        {
+          "number": "2+",
+          "meta": "Years <br /> experience...",
+          "text": "Hello there! My name is <span>Emin Çomoğlu</span>. I am a back-end developer, and Im very passionate and dedicated to my work."
+        },
+        {
+          "number": "50+",
+          "meta": "Projects <br /> On hand...",
+          "text": "With 2+ years experience as a back-end developer, I have acquired the skills to make your project a success."
+        }
+      ],
+      "note": "“You miss 100% of the shots you dont take. - Wayne Gretzky ” - Michael Scott"
+    }
+  },
+  "experienceData": {
+    "text": "Hello there! My name is Emin Çomoğlu. I am a back-end developer, and Im very passionate and dedicated to my work.",
+    "resumeCv": "/Ali_Emin_Comoglu_CV.pdf",
+    "experience": [
+      {
+        "start": "2023",
+        "end": "Present",
+        "title": "Back-end DEVELOPER",
+        "subtitle": "PHP / Laravel @ Xenovo"
+      },
+      {
+        "start": "2022",
+        "end": "2023",
+        "title": "Web Developer",
+        "subtitle": "HTML & CSS / PHP @ Appen"
+      }
+    ]
+  },
+  "serviceData": [
+    {
+      "title": "OOP Principles & Design patterns",
+      "heading": "Object Oriented Programming Principles",
+      "triger": "One",
+      "imgLink": "/images/services-1.png",
+      "text": "The OOP principles and Design Pattern(Factory, Singleton, Facade etc.)  approaches that I learned on this path that I set out to write clean and highly readable code have become indispensable fixtures for me on this path."
+    },
+    {
+      "title": "S.O.L.I.D. Principles",
+      "heading": "S.O.L.I.D. Principles",
+      "triger": "Four",
+      "imgLink": "/images/services-4.png",
+      "text": "Adhering to the S.O.L.I.D. principles in my software development approach has become one of my most significant and treasured assets on this journey. These fundamental guidelines continually shape my craftsmanship, ensuring that my work not only meets the highest standards of quality and maintainability but also reflects a deep commitment to professional excellence in the ever-evolving world of technology."
+    },
+    {
+      "title": "In-memory Database Systems",
+      "heading": "In-memory database systems",
+      "triger": "Three",
+      "imgLink": "/images/services-3.png",
+      "text": "While working on large and scaled databases, I have specialized myself on in-memory database systems (such as Redis, MongoDB, ElasticSearch, Meilisearch, etc.) to optimize query times and indexing operations for searching the database."
+    },
+    {
+      "title": "Modern Working Environments",
+      "heading": "Modern Working Environments",
+      "triger": "Two",
+      "imgLink": "/images/services-2.png",
+      "text": "In order to keep up with the innovations brought by the industry and at the same time create a reliable and robust working environment, I have worked intensively on Docker and Linux."
+    }
+  ],
+  "portfolioData": [
+    {
+      "ImgLink": "/images/project-1.png",
+      "subTitle": "API Back-end Services",
+      "title": "Xenovo",
+      "link": "https://xenovo.com.tr",
+      "paragraphList": [
+        {
+          "text": "Developed Back-end REST API for Xenovo, focusing on robustness and scalability."
+        },
+        {
+          "text": "Built multi-language blog CRUD, compatible with i18n.js package."
+        },
+        {
+          "text": "Integrated Mail sender functionality for automated email communications and form submit requests."
+        },
+        {
+          "text": "Built a dashboard for website google analytics using ApexCharts.js for chart building."
+        },
+        {
+          "text": "Focused on general stability, performance and security."
+        }
+      ]
+    },
+    {
+      "ImgLink": "/images/project-2.png",
+      "subTitle": "Dashboard & Admin Panel",
+      "title": "Hosting Europe - Dashboard",
+      "link": "https://dashboard.hostingeurope.group",
+      "paragraphList": [
+        {
+          "text": "Developed a comprehensive dashboard for a hosting application, providing centralized monitoring and management."
+        },
+        {
+          "text": "Implemented mathematical calculations across multiple pages using the factory design pattern for structured data handling."
+        },
+        {
+          "text": "Utilized ApexCharts for interactive and visually appealing data representation."
+        },
+        {
+          "text": "Included a reservation interface built with FullCalendar for easy scheduling and management within the dashboard."
+        }
+      ]
+    },
+    {
+      "ImgLink": "/images/project-3.png",
+      "subTitle": "Website Renovation",
+      "title": "Blue Palm",
+      "link": "https://bluepalmgroup.net",
+      "paragraphList": [
+        {
+          "text": "Renovated Blue Palm website, focusing on aesthetics, functionality, and user interaction."
+        },
+        {
+          "text": "Implemented advanced notification system for real-time user updates and engagement."
+        },
+        {
+          "text": "Integrated one-way chat application for direct user communication with the Blue Palm team."
+        },
+        {
+          "text": "Employed advanced state management in front-end development using Nuxt 3's useState for dynamic content updates."
+        },
+        {
+          "text": "Streamlined user authentication process with back-end integration using Nuxt 3's composable architecture."
+        },
+        {
+          "text": "Provided security solutions for possible XSS and CSRF attacks."
+        }
+      ]
+    },
+    {
+      "ImgLink": "/images/library.png",
+      "subTitle": "A Personal Project",
+      "title": "Library Application",
+      "link": "https://emincomoglu.com/library",
+      "paragraphList": [
+        {
+          "text": "Initiated a project as a side venture, progressively refining both personal capabilities and the project itself with ongoing enhancements."
+        },
+        {
+          "text": "Devised a personal library management application, leveraging data from the Google Books store API. This tool allows for the search, addition, and cataloging of books within a personal collection, including tracking books read or intended for reading."
+        },
+        {
+          "text": "Constructed the application utilizing PHP/Laravel 10 and Livewire frameworks for a robust back-end and dynamic front-end experience."
+        }
+      ]
+    }
+  ],
+  "contactData": {
+    "contactInfo": [
+      {
+        "icon": "chat-left-dots-fill",
+        "title": "Get in contact",
+        "text": "Send an email to me: ",
+        "emailLink": "emin-comoglu@hotmail.com"
+      },
+      {
+        "icon": "phone",
+        "title": "Call me",
+        "text": "Mon-Fri from 9am to 6pm. +90 (553) 720-9699"
+      },
+      {
+        "icon": "linkedin",
+        "title": "Linked In",
+        "text": "Contact Me via Linked In; https://linkedin.com/in/emin-çomoğlu-657213237"
+      }
+    ],
+    "contactForm": {
+      "title": "Got ideas on your mind? Feel free to contact me.",
+      "text": "Tell me more about yourself and what you have got in mind."
+    }
+  },
+  "footerData": {
+    "ImgLink": "/images/emin-pp.jpg",
+    "name": "Ali Emin Çomoğlu"
+  },
+  "socialData": [
+    {
+      "icon": "twitter",
+      "link": ""
+    },
+    {
+      "icon": "instagram",
+      "link": ""
+    },
+    {
+      "icon": "facebook",
+      "link": ""
+    },
+    {
+      "icon": "pinterest",
+      "link": ""
+    }
+  ]
+}
