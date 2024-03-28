@@ -16,10 +16,6 @@
         "icon": "github"
       },
       {
-        "link": "",
-        "icon": "instagram"
-      },
-      {
         "link": "https://www.linkedin.com/in/emin-çomoğlu-657213237",
         "icon": "linkedin"
       }
@@ -163,7 +159,7 @@
       "ImgLink": "/images/project-3.png",
       "subTitle": "Website Renovation",
       "title": "Blue Palm",
-      "link": "https://bluepalmgroup.net",
+      "link": "https://bluepalm.group",
       "paragraphList": [
         {
           "text": "Renovated Blue Palm website, focusing on aesthetics, functionality, and user interaction."
@@ -233,20 +229,12 @@
   },
   "socialData": [
     {
-      "icon": "twitter",
-      "link": ""
+      "icon": "github",
+      "link": "https://github.com/Emincmg"
     },
     {
-      "icon": "instagram",
-      "link": ""
-    },
-    {
-      "icon": "facebook",
-      "link": ""
-    },
-    {
-      "icon": "pinterest",
-      "link": ""
+      "icon": "linkedin",
+      "link": "www.linkedin.com/in/emin-çomoğlu-657213237"
     }
   ]
 }

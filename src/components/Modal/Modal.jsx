@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { Icon } from "@iconify/react";
 import { socialData } from "../../data.json";
 
-const Modal = ({ img, title, date, subTitle, paraList, modalClose }) => {
+const Modal = ({ img, title, date, subTitle, paraList, link, modalClose }) => {
   const modalStyle = {
     backgroundColor: 'rgba(0,0,0,.6)',
     backdropFilter: "saturate(180%) blur(8px)",
@@ -27,7 +27,7 @@ const Modal = ({ img, title, date, subTitle, paraList, modalClose }) => {
               }
             </ul>
             <div className="blog-meta">
-              <label>Link</label>
+              <a href={link} className={link}>Link</a>
               <ul className="nav social-link">
                 {socialData.map((element, index) => (
                   <li key={index}>

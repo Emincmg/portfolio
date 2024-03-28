@@ -10,9 +10,8 @@ const Portfolio = ({ data }) => {
   const [modal, setModal] = useState(false);
   const [tempData, setTempData] = useState([]);
 
-  const getData = (imgLink, title, subTitle, paragraphList) => {
-    console.log(imgLink, title, subTitle, paragraphList);
-    let tempData = [imgLink, title, subTitle, paragraphList];
+  const getData = (imgLink, title, subTitle, paragraphList,link) => {
+    let tempData = [imgLink, title, subTitle, paragraphList,link];
     setTempData(element => [1, ...tempData]);
     setModal(true);
   }
@@ -32,14 +31,14 @@ const Portfolio = ({ data }) => {
               data.map((element, index) => (
                 <div className="col-lg-6" key={index}>
                   <div className="work-box">
-                    <div className="work-img" onClick={() => getData(element.ImgLink, element.title, element.subTitle, element.paragraphList)}>
+                    <div className="work-img" onClick={() => getData(element.ImgLink, element.title, element.subTitle, element.paragraphList, element.link)}>
                       <img src={element.ImgLink} title="" alt="protfolio image" />
                     </div>
                     <div className="work-text">
                       <h6>{element.subTitle}</h6>
                       <h4>{element.title}</h4>
                       <div className="btn-bar">
-                        <a className="gallery-link" onClick={() => getData(element.ImgLink, element.title, element.subTitle, element.paragraphList)}>
+                        <a className="gallery-link" onClick={() => getData(element.ImgLink, element.title, element.subTitle, element.paragraphList, element.link)}>
                           <Icon icon="bi:arrow-up-right" />
                         </a>
                       </div>
@@ -51,7 +50,7 @@ const Portfolio = ({ data }) => {
           </div>
         </div>
       </div>
-      {modal === true ? <Modal img={tempData[1]} title={tempData[2]} subTitle={tempData[3]} paraList={tempData[4]} modalClose={modalClose} /> : ""}
+      {modal === true ? <Modal img={tempData[1]} title={tempData[2]} subTitle={tempData[3]} paraList={tempData[4] } link={tempData[5]} modalClose={modalClose} /> : ""}
     </section>
   )
 }
