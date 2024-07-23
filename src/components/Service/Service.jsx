@@ -45,7 +45,7 @@ const Service = ({ data }) => {
                           src={element.imgLink}
                           title=""
                           alt="Service Image"
-                        />
+                       />
                       </div>
                     </div>
                     <div className="col-sm-6 col-md-8">

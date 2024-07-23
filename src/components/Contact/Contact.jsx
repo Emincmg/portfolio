@@ -34,7 +34,7 @@ const Contact = ({ data }) => {
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
 
-    const res = await fetch("https://emincomoglu.com/library/api/contact-mail", {
+    const res = await fetch("https://emincomoglu.com.tr/library/api/contact-mail", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -103,7 +103,7 @@ const Contact = ({ data }) => {
                 <div className="row gx-3 gy-4">
                   <div className="col-md-6">
                     <div className="form-group">
-                      <label className="form-label">First name</label>
+                      <label className="form-label">Your Name</label>
                       <input
                         name="name"
                         id="name"

@@ -1,6 +1,6 @@
 {
   "headerData": {
-    "logoDark": "/images/logo.svg",
+    "logoDark": "/images/emin3.png",
     "logoLight": "/images/logo-light.svg"
   },
   "heroData": {
@@ -185,7 +185,7 @@
       "ImgLink": "/images/library.png",
       "subTitle": "A Personal Project",
       "title": "Library Application",
-      "link": "https://emincomoglu.com/library",
+      "link": "https://emincomoglu.com.tr/library",
       "paragraphList": [
         {
           "text": "Initiated a project as a side venture, progressively refining both personal capabilities and the project itself with ongoing enhancements."
@@ -195,6 +195,20 @@
         },
         {
           "text": "Constructed the application utilizing PHP/Laravel 10 and Livewire frameworks for a robust back-end and dynamic front-end experience."
+        }
+      ]
+    },
+    {
+      "ImgLink": "/images/convo-lite.png",
+      "subTitle": "Laravel conversation package.",
+      "title": "ConvoLite",
+      "link": "https://packagist.org/packages/emincmg/convo-lite",
+      "paragraphList": [
+        {
+          "text": "I developed a conversation package for Laravel PHP framework."
+        },
+        {
+          "text": "Package is a lightweight conversation package for Laravel projects, facilitating smooth chat experiences."
         }
       ]
     }

@@ -32,7 +32,7 @@ const Portfolio = ({ data }) => {
                 <div className="col-lg-6" key={index}>
                   <div className="work-box">
                     <div className="work-img" onClick={() => getData(element.ImgLink, element.title, element.subTitle, element.paragraphList, element.link)}>
-                      <img src={element.ImgLink} title="" alt="protfolio image" />
+                      <img src={element.ImgLink} title="" alt="protfolio image"/>
                     </div>
                     <div className="work-text">
                       <h6>{element.subTitle}</h6>
