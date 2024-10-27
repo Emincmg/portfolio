@@ -6,7 +6,11 @@
   "heroData": {
     "title": "My name<br />is <b>Emin</b> <span><br />Comoglu</span>",
     "subTitle": "<span>Back-end Developer</span> based in <span>Türkiye</span>",
-    "ImgLink": "/images/emin-banner.png",
+    "imgLink": "/images/emin-banner-4mb.png",
+    "placeHolderLink": "/images/emin-banner-placeholder.jpeg",
+    "imgAlt": "emin-banner",
+    "imgHeight": "100%",
+    "imgWidth": "auto",
     "phone": "+90 553 720 9699",
     "email": "emin-comoglu@hotmail.com",
     "btnText": "Contact me",

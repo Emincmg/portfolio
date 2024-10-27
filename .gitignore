@@ -9,5 +9,5 @@
 /coverage
 
 # production
-/build
+dist/*
 

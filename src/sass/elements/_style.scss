@@ -25,25 +25,14 @@ a {
 ---------------------------*/
 .home-section {
   position: relative;
-  .hb-me {
+  .hb-em {
     position: absolute;
-    right: 0px;
+    right: 120px;
     top: 0px;
     bottom: 0px;
     height: 100%;
-    width: 100vw;
-    background-size: contain;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    opacity: 0.4;
     pointer-events: none;
-    @include up-md {
-      width: 60vw;
-      opacity: 1;
-    }
-    @include up-lg {
-      width: 50vw;
-    }
+    width: 66.6vh;
   }
   .hb-text {
     padding: 100px 0;
