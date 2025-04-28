@@ -6,7 +6,7 @@
   "heroData": {
     "title": "My name<br />is <b>Emin</b> <span><br />Comoglu</span>",
     "subTitle": "<span>Back-end Developer</span> based in <span>Türkiye</span>",
-    "imgLink": "/images/emin-banner-4mb.png",
+    "imgLink": "/images/emin-banner-optimized.jpg",
     "placeHolderLink": "/images/emin-banner-placeholder.jpeg",
     "imgAlt": "emin-banner",
     "imgHeight": "100%",
@@ -54,14 +54,14 @@
       ],
       "archivement": [
         {
-          "number": "2+",
+          "number": "3",
           "meta": "Years <br /> experience...",
           "text": "Hello there! My name is <span>Emin Çomoğlu</span>. I am a back-end developer, and Im very passionate and dedicated to my work."
         },
         {
           "number": "50+",
           "meta": "Projects <br /> On hand...",
-          "text": "With 2+ years experience as a back-end developer, I have acquired the skills to make your project a success."
+          "text": "With 3 years experience as a back-end developer, I have acquired the skills to make your project a success."
         }
       ],
       "note": "“You miss 100% of the shots you dont take. - Wayne Gretzky ” - Michael Scott"
@@ -75,13 +75,13 @@
         "start": "2023",
         "end": "Present",
         "title": "Back-end DEVELOPER",
-        "subtitle": "PHP / Laravel @ Xenovo"
+        "subtitle": ".NET Core | PHP/Laravel @ Xenovo"
       },
       {
         "start": "2022",
         "end": "2023",
-        "title": "Web Developer",
-        "subtitle": "HTML & CSS / PHP @ Appen"
+        "title": "Freelance Web Developer",
+        "subtitle": ".NET Core | PHP/Laravel @ Freelance"
       }
     ]
   },

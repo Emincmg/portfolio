@@ -32,7 +32,7 @@ const Contact = ({ data }) => {
                           {element.emailLink &&
                             <a
                               className="text-reset"
-                              href="mailto:info@domainname.com"
+                              href="mailto:emin.comoglu96@gmail.com"
                             >
                               {element.emailLink}
                             </a>
